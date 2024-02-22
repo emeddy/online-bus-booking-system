@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(195, 12, 12);
+    background-image: url(images/background2.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+main {
+    color: rgb(234, 11, 11);
+    
+}
+footer main h1{
+    color: rgb(24, 35, 188);
+}
+section h2{
+    color: rgb(6, 198, 22);
+    text-align: center;
+    text-size-adjust: 80px;
+    size: 40px;
+
+}
+section br{
+    color: aqua;
+}
+header h1{
+    background-color: rgba(19, 11, 1, 0.248);
+    color: rgb(237, 239, 239);
+    text-align: center;
+}
+section h3{
+    text-align: center;
+    background-color: rgba(243, 243, 243, 0.333);
+    color: rgb(248, 248, 248);
+}
+container {
+        background-color: antiquewhite;
+}

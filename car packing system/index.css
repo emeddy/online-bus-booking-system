@@ -1,0 +1,130 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #000000; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url(images/background2.jpg);
+
+}
+
+.container {
+    max-width: 1450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c4bbbbb0; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light Gray Shadow */
+}
+
+header {
+    background-color: #000000b3; /* RoyalBlue */
+    color: #ffffff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* New styles for the logo */
+.logo {
+    max-width: 100px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ed0e0e; /* RoyalBlue */
+    text-decoration: none;
+    size: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+section h2{
+    text-align: center;
+    color: aqua;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: none; /* Darker Gray for better text visibility */
+    color: #fff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px; /* Adjusted border-radius */
+    clear: both; /* Ensure content doesn't flow around the footer */
+}
+
+footer p {
+    color: none; /* Set the color for the text within the footer */
+}
+footer p{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+footer div{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p{
+    margin: auto;
+    font-size: 20px;
+    color: rgba(254, 13, 0, 0.999);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+footer {
+    height: 10px;
+    font-weight: 10px;
+}
+footer h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+footer p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background-color: rgb(9, 244, 32);
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+
+/* Add more styles as needed */

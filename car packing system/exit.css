@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background2.jpg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light Gray Shadow */
+}
+
+header {
+    background-color: #0066cc; /* RoyalBlue */
+    color: #fff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0066cc; /* RoyalBlue */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #0066cc; /* RoyalBlue */
+    color: #fff; /* White */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a8; /* Slightly darker shade on hover */
+}
+
+.success {
+    color: #008000; /* Green */
+}
+
+.error {
+    color: #ff0000; /* Red */
+}
+
+p {
+    margin-top: 16px;
+}
+
+a {
+    color: #0066cc; /* RoyalBlue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333; /* Darker Gray for better text visibility */
+    color: #fff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px; /* Adjusted border-radius */
+    clear: both; /* Ensure content doesn't flow around the footer */
+}
+
+footer p {
+    color: #000; /* Set the color for the text within the footer */
+}
+footer p{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+footer div{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p{
+    margin: auto;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}

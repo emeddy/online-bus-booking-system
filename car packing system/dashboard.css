@@ -1,0 +1,106 @@
+/* dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    background-image: url(images/DESTINATION\2.jpg);
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d01313; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light Gray Shadow */
+}
+
+header {
+    background-color: #12e84f4f; /* RoyalBlue */
+    color: #fff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #82e106; /* Dark Gray */
+}
+
+section {
+    margin-top: 20px;
+}
+main p2{
+    color: #f0250a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #f0250a; /* RoyalBlue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: none; /* Darker Gray for better text visibility */
+    color: #fff; /* White */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px; /* Adjusted border-radius */
+    clear: both; /* Ensure content doesn't flow around the footer */
+}
+
+footer p {
+    color: #d3d3d3; /* Set the color for the text within the footer */
+}
+footer p{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 46, 23);
+}
+footer p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background-color: rgb(10, 239, 14);
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+footer div{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p{
+    margin: auto;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.377);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
